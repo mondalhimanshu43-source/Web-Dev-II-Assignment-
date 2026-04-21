@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.app {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.header p {
+  color: #555;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+}
+
+.form button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #444;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.student-table th {
+  background-color: #222;
+  color: white;
+}
+
+.student-table input {
+  padding: 6px;
+  width: 80px;
+  text-align: center;
+}
+
+.pass {
+  color: green;
+  font-weight: bold;
+}
+
+.fail {
+  color: red;
+  font-weight: bold;
+}
